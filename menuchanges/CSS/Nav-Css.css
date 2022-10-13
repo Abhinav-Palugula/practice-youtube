@@ -1,0 +1,54 @@
+.nav-bar{
+    position: fixed;
+    left: 0;
+    top: 56px;
+    bottom: 0;
+    background-color: white;
+    width: 74px;
+    padding-top: 5px;
+    z-index: 200;
+    width: 224px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 
+}
+
+.nav-buttons{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 24px;
+    
+}
+
+.nav-buttons:hover{
+    background-color: #eeeeee;
+}
+
+.img-buttons{
+    width: 24px;
+    height: 24px;
+    padding-right: 24px;
+}
+
+.text-button{
+    font-size: 14px;
+    color: rgb(77, 74, 74)
+}
+
+@media (max-width: 375px){
+    .nav-bar{
+        display: none;
+    }
+}
